@@ -1,0 +1,7 @@
+a.menu-item {
+  padding: 5px 10px;
+}
+a.selected-menu-item {
+  font-Weight: bold;
+  color: red;
+}

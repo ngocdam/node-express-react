@@ -1,0 +1,57 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "build-server": "babel -d ./build src -s",
+    "build": "yarn clean && yarn build-server",
+    "start": "node ./build/server.js",
+    "dev": "babel-node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.4",
+    "express": "^4.15.2",
+    "helmet": "^3.5.0",
+    "http-status": "^1.0.1",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "node-fetch": "^1.6.3",
+    "pretty-error": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "chokidar": "^1.6.1",
+    "cross-env": "^4.0.0",
+    "front-matter": "^2.1.2",
+    "markdown-it": "^8.3.1",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "stage-2"
+    ]
+  }
+}

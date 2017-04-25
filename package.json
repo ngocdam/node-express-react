@@ -1,0 +1,63 @@
+{
+  "name": "asls",
+  "version": "1.0.0",
+  "description": "ASLS build tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdamtn/Viet.git"
+  },
+  "author": "NGOC DAM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrdamtn/Viet/issues"
+  },
+  "homepage": "https://github.com/mrdamtn/Viet#readme",
+  "deploy": {
+    "heroku": {
+      "name": "heroku",
+      "url": "https://git.heroku.com/asls.git",
+      "branch": "master",
+      "website": "https://asls.herokuapp.com"
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "babel-node tools/run clean",
+    "copy": "babel-node tools/run copy",
+    "build": "babel-node tools/run build",
+    "deploy": "babel-node tools/run deploy",
+    "dev": "babel-node tools/run dev",
+    "install-source": "babel-node tools/run install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "chokidar": "^1.6.1",
+    "cross-env": "^4.0.0",
+    "front-matter": "^2.1.2",
+    "markdown-it": "^8.3.1",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "stage-2"
+    ]
+  }
+}

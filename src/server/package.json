@@ -10,7 +10,7 @@
     "build-server": "babel -d ./build src -s",
     "build": "yarn clean && yarn build-server",
     "start": "node ./build/server.js",
-    "dev": "babel-node ./src/server.js",
+    "dev": "nodemon -x \"babel-node\" ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

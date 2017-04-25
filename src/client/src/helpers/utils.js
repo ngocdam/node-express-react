@@ -1,6 +1,6 @@
 /*eslint-disable*/
 
-import { browserHistory } from 'react-router';
+import browserHistory from 'history/createBrowserHistory';
 
 const uuidV4 = require('uuid/v4');
 

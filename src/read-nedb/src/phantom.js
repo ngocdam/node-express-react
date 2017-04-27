@@ -1,3 +1,4 @@
+// yarn add phantom
 import phantom from 'phantom';
 
 import { readFile, writeFile, copyFile, readDir, makeDir, copyDir, cleanDir } from '../tools/lib/fs';

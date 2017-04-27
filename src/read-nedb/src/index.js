@@ -5,7 +5,8 @@ import { readFile, writeFile, copyFile, readDir, makeDir, copyDir, cleanDir } fr
 
 import startSeq from './sequelize';
 import startNedb from './nedb';
-import startPhantom from './phantom';
+//import startPhantom from './phantom';
+import startWallet from './wallet';
 
 // -----------------------------------------------------------------------------------------
 
@@ -39,8 +40,8 @@ const clean = () => {
 
 // -----------------------------------------------------------------------------------------
 
-const inputRoot = './data/input';
-const outputRoot = './data/output';
+const inputRoot = 'data/input';
+const outputRoot = 'data/output';
 const filenameSeparator = '___';
 
 const getFileName = (filepath) => {
@@ -53,20 +54,23 @@ const getFileName = (filepath) => {
 // -----------------------------------------------------------------------------------------
 
 const startRead = async (filepath) => {
+  //console.log('start read => filepath: ', filepath);
   const ext = '.json';
   const filename = `${getFileName(filepath)}`;
   const input = `${inputRoot}/${filepath}`;
 
   const nedbOutput = `${outputRoot}/${filename}_NEDB_${ext}`;
   const seqOutput = `${outputRoot}/${filename}_SEQUELIZE_${ext}`;
+  const walOutput = `${outputRoot}/${filename}_WALLET_${ext}`;
 
   await startSeq(input, seqOutput); // not much reliability
   //await startNedb(input, nedbOutput); // sometime cannot fully get enough data
+  await startWallet(seqOutput, walOutput);
 }
 
 // -----------------------------------------------------------------------------------------
 
-const start = async (filepath) => {
+const startConvert = async (filepath) => {
   await clean();
   console.log('==============================> cleanup done');
 
@@ -86,6 +90,6 @@ const start = async (filepath) => {
 
 // -----------------------------------------------------------------------------------------
 
-start();
+startConvert();
 
 // -----------------------------------------------------------------------------------------

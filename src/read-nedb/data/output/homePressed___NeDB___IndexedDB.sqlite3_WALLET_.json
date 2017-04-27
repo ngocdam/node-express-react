@@ -1,0 +1,29 @@
+{
+  "W1": {
+    "coins": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "ethereum"
+    ],
+    "passphrase": "copper siren differ use like egg sight where spoon learn swamp swarm"
+  },
+  "W3": {
+    "coins": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "ethereum"
+    ],
+    "passphrase": "copper siren differ use like egg sight where spoon learn swamp swarm"
+  },
+  "W2": {
+    "coins": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "ethereum"
+    ],
+    "passphrase": "copper siren differ use like egg sight where spoon learn swamp swarm"
+  }
+}

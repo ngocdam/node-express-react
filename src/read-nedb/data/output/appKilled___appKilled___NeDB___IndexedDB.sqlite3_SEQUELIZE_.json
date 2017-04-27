@@ -1,0 +1,199 @@
+{
+  "wallet": [
+    {
+      "key": "wallet-1493178172219",
+      "name": "W1",
+      "data": {
+        "mnemonic": {
+          "encStr": "fFZG2xOzgw2JXcORfCTG5b9MS67Ja3oesTfD+DqJjeMk1MOtqZYVDc+NzVj7grvNZFVsfAB75Mrsbb7/CLJptBA/n14YJ5rvtpKbHmJ0BkbM5f27",
+          "nonce": "Ze+aLjZsKhgiPZGo8mZngJwP23qJ5pfj"
+        },
+        "coinNames": [
+          "bitcoin",
+          "litecoin",
+          "dogecoin",
+          "ethereum"
+        ],
+        "bitcoin": {
+          "PrivKeys": {
+            "1JbREhp69YjjTYsKfWopyc85f4935eAV2h": {
+              "encStr": "WN6vo7YVFN1rPxdn+czvoyOu5b1edMsoGhOeTjyj0wRtTAZvlKDtIvYC5XFt8pMOhKa0g7JpVoRkUocDucHFwtul4b0=",
+              "nonce": "qIPROGdCPBVkSdasoXMkOSfBQq/8+Pvy"
+            }
+          },
+          "Addresses": [
+            "1JbREhp69YjjTYsKfWopyc85f4935eAV2h"
+          ]
+        },
+        "litecoin": {
+          "PrivKeys": {
+            "LWCm8mPSbyYY6KHTfKqe4gCV279PJFV8Ap": {
+              "encStr": "YEbQiBOVLFM/qBG8hx20vTkA39sMqr2cc2GZpcNIGFOYax7QTQIYuGjXbajZi6pmq0MilQlSQu1Bfw+8hlDi0GxMCPs=",
+              "nonce": "luBroNVQo8ux7UUOPYrbWMO9mTffdgfe"
+            }
+          },
+          "Addresses": [
+            "LWCm8mPSbyYY6KHTfKqe4gCV279PJFV8Ap"
+          ]
+        },
+        "dogecoin": {
+          "PrivKeys": {
+            "D5u2HX4pSiiXewsQwuSZMxUqTGqN4CjMwa": {
+              "encStr": "epwYjlpHNT6b7uiXrNSF4GdJGiq9clo2GMJwpGCryEpRuAsHFvEDLpYcH1LA+opQ8/T4rzhBBBXOQjqUlPASN0EgGu0=",
+              "nonce": "Ov7sys4RWpi5WeEvhHEDAXj21DqXV0Zr"
+            }
+          },
+          "Addresses": [
+            "D5u2HX4pSiiXewsQwuSZMxUqTGqN4CjMwa"
+          ]
+        },
+        "ethereum": {
+          "PrivKeys": {
+            "0x0e64a460bb544fde9767830b6deef67d406778cf": {
+              "encStr": "1Jdcb6st+IX4gxdwBPw//lm4g48cpMIbzAH6LN3YJmh8gyRJ9qgdIRq9r/crfvBGi7x24bEhwcjiABTWjPP+scKOFXApdXIZB/sv/ESfUEo=",
+              "nonce": "Rz6pUmqpKJWNDvm5eu6MT9CTuZXS+mCG"
+            }
+          },
+          "Addresses": [
+            "0x0e64a460bb544fde9767830b6deef67d406778cf"
+          ]
+        }
+      },
+      "created": 1493178172219,
+      "txSyncCompleted": true,
+      "PINStatus": false,
+      "_id": "2CkgKjw759u0oVYQ",
+      "password": "6512bd43d9caa6e02c990b0a82652dca"
+    },
+    {
+      "key": "wallet-1493178753669",
+      "name": "W3",
+      "data": {
+        "mnemonic": {
+          "encStr": "OxLxle1pxTMpXmPu/CpxUIiXEIRZ1KPxJTh60w1TLxynfA4Aa35sSzJvO3SrHlRaLmMGxvYpm2B1NTnJdzdF0+XXlZiBpS15uhTfoAuwc5H9Nspz",
+          "nonce": "ByFUbEFp639Kpkb5SE6k5ZQQNB2SDEjz"
+        },
+        "coinNames": [
+          "bitcoin",
+          "litecoin",
+          "dogecoin",
+          "ethereum"
+        ],
+        "bitcoin": {
+          "PrivKeys": {
+            "1JbREhp69YjjTYsKfWopyc85f4935eAV2h": {
+              "encStr": "KGVbCN5KAjvgLoB3rLQSNQDvB4t0aUVg45zpp5vCWktldCdzYPdWvIgTVtzHUkJOayQWlx+O7j7tqaLwOU444gJl5Yg=",
+              "nonce": "U+wO1hgwTb3vpb+fT+tJUM+L1txpDCgE"
+            }
+          },
+          "Addresses": [
+            "1JbREhp69YjjTYsKfWopyc85f4935eAV2h"
+          ]
+        },
+        "litecoin": {
+          "PrivKeys": {
+            "LWCm8mPSbyYY6KHTfKqe4gCV279PJFV8Ap": {
+              "encStr": "kx906s62km2m9F9VAQz8w167pkh1hyHAN1AvOB1JgEtO960nVHysVhnB9TX7g/uN+2tlMAob8kJGZKThYCx+gr+grec=",
+              "nonce": "NWZhZDMblxH0E/W4HtJfnd2Iu7woO777"
+            }
+          },
+          "Addresses": [
+            "LWCm8mPSbyYY6KHTfKqe4gCV279PJFV8Ap"
+          ]
+        },
+        "dogecoin": {
+          "PrivKeys": {
+            "D5u2HX4pSiiXewsQwuSZMxUqTGqN4CjMwa": {
+              "encStr": "xDKuuOnUlOLy1jZg/TfSZQCr0npu/9ciKZ+2y+rEQqXcmlnx72/f6NUMe9SZVrVH7Ier/0tzjPsS+fi9oWlkenLcWb0=",
+              "nonce": "YLMfAq7RspQlc2YYCXCVxTMXUBL2M+Mu"
+            }
+          },
+          "Addresses": [
+            "D5u2HX4pSiiXewsQwuSZMxUqTGqN4CjMwa"
+          ]
+        },
+        "ethereum": {
+          "PrivKeys": {
+            "0x0e64a460bb544fde9767830b6deef67d406778cf": {
+              "encStr": "wiS6AZAJD5IQ/jksY0e3Ps0jYoTkBmI8N8O9T1qz4ujn/8cruWeA+IGIoyBpnOs7jDhBngFiI5RER90DMor3P3d2XZw+d6oj6LuYVxws6uI=",
+              "nonce": "xrxi1ifo8HtcXgHhEfuTcd0PC7wgVRqj"
+            }
+          },
+          "Addresses": [
+            "0x0e64a460bb544fde9767830b6deef67d406778cf"
+          ]
+        }
+      },
+      "created": 1493178753669,
+      "txSyncCompleted": true,
+      "PINStatus": false,
+      "_id": "OWBVYU8uJXXJS0zv",
+      "password": "6512bd43d9caa6e02c990b0a82652dca"
+    },
+    {
+      "key": "wallet-1493178579350",
+      "name": "W2",
+      "data": {
+        "mnemonic": {
+          "encStr": "vAHF1HmxzeJNa4rCCTEmJ4alLfR/S7MOl3DduuktbAK5VpnuJrcnoq5ODTgy96hKFlYDFUHcVFdE+sgXeTbJLrlxOriFhMUXeG74tbN5qgR/X9Uf",
+          "nonce": "A63dg3timEPybGaQvLELuZajraJCDH7B"
+        },
+        "coinNames": [
+          "bitcoin",
+          "litecoin",
+          "dogecoin",
+          "ethereum"
+        ],
+        "bitcoin": {
+          "PrivKeys": {
+            "1JbREhp69YjjTYsKfWopyc85f4935eAV2h": {
+              "encStr": "vUOSvqzQiW7SYwtrVekQGC0LagYQENenPydDBSuTlpK17XbElnb/M9hkfkfxkvR+Vix+j4mmuHzdjZskuK71gPUpuoA=",
+              "nonce": "ZP9L6MHa2A+vLpxvGbmm0j/piCuVX4XH"
+            }
+          },
+          "Addresses": [
+            "1JbREhp69YjjTYsKfWopyc85f4935eAV2h"
+          ]
+        },
+        "litecoin": {
+          "PrivKeys": {
+            "LWCm8mPSbyYY6KHTfKqe4gCV279PJFV8Ap": {
+              "encStr": "tJHOALFsXYYGc6CnW8IlsrHM1bo48+erOLfAjcYWaJOJFQtNLOo2ljwFfH281rtbayutvDraSkXBPTps774o8mV+9z0=",
+              "nonce": "7A3mLojrvozChaT0hVyQuTr1VWgxzNl2"
+            }
+          },
+          "Addresses": [
+            "LWCm8mPSbyYY6KHTfKqe4gCV279PJFV8Ap"
+          ]
+        },
+        "dogecoin": {
+          "PrivKeys": {
+            "D5u2HX4pSiiXewsQwuSZMxUqTGqN4CjMwa": {
+              "encStr": "vhnWtCNTmY4jEexPAut71RTtlpd15Rnn6crWsgC+Y2HakV9pTcgIptHSDCY2hkGeW6YhpsMsjR4vvYDND4duBPVSDzc=",
+              "nonce": "QEdgZUrcPNdF5dz8AR/n8pwQb6nMgsQz"
+            }
+          },
+          "Addresses": [
+            "D5u2HX4pSiiXewsQwuSZMxUqTGqN4CjMwa"
+          ]
+        },
+        "ethereum": {
+          "PrivKeys": {
+            "0x0e64a460bb544fde9767830b6deef67d406778cf": {
+              "encStr": "6P6EnOOkeKT8BPVI0tvDF1s6a9cq14JM/gZKr468KrgWL2LjljPna3fTSPGxZKwqs+d2vZTfTgsBIQVLeXqZIOpvjJSrljs8p/E0oqo3vNU=",
+              "nonce": "OjOI+vpr8vDMGBWwZ1rWHnTAgY5KP+A/"
+            }
+          },
+          "Addresses": [
+            "0x0e64a460bb544fde9767830b6deef67d406778cf"
+          ]
+        }
+      },
+      "created": 1493178579350,
+      "txSyncCompleted": true,
+      "PINStatus": false,
+      "_id": "aVdx1aPBYg0LiLFl",
+      "password": "6512bd43d9caa6e02c990b0a82652dca"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "build-server": "babel -d ./build src -s",
+    "build": "yarn clean && yarn build-server",
+    "start": "node ./build/index.js",
+    "dev": "nodemon --ignore \"data\" --ignore \"models\" -x \"babel-node\" ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "binary-parser": "^1.1.5",
+    "bluebird": "^3.5.0",
+    "crypto-js": "^3.1.9-1",
+    "debug": "^2.6.4",
+    "iconv": "^2.2.3",
+    "js-data": "^2.10.0",
+    "js-data-nedb": "^1.0.0",
+    "json-buffer": "^2.0.11",
+    "localforage": "^1.5.0",
+    "nedb": "^1.8.0",
+    "node-fetch": "^1.6.3",
+    "phantom": "^4.0.2",
+    "sequelize": "^3.30.4",
+    "sequelize-auto": "^0.4.28",
+    "sqlite-to-nedb": "^0.0.4",
+    "sqlite3": "^3.1.8",
+    "string": "^3.3.3",
+    "strip-bom": "^3.0.0",
+    "trim": "^0.0.1",
+    "trim-newlines": "^2.0.0",
+    "unorm": "^1.4.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "chokidar": "^1.6.1",
+    "cross-env": "^4.0.0",
+    "front-matter": "^2.1.2",
+    "markdown-it": "^8.3.1",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "stage-2"
+    ]
+  }
+}

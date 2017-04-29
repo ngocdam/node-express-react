@@ -1,22 +1,11 @@
 /*eslint-disable*/
 
-import browserHistory from 'history/createBrowserHistory';
-
 const uuidV4 = require('uuid/v4');
 
 /**
  * Constructor
  */
 var Utils = function () { };
-
-/**
-* Redirect to a react-route at runtime.
-* @param {string} route
-* @return {undefined}
-*/
-Utils.redirect = function (route) {
-  browserHistory.push(route);
-}
 
 Utils.range = (low, hi) => {
   function rangeRec(low, hi, vals) {

@@ -4,7 +4,11 @@
   "description": "",
   "author": "",
   "license": "MIT",
-  "main": "index.js",
+  "engines": {
+    "node": ">=6.10.2",
+    "npm": ">=3.10.10"
+  },
+  "main": "server.js",
   "scripts": {
     "clean": "rm -rf build && mkdir build",
     "build-server": "babel -d ./build src -s",

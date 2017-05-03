@@ -26,8 +26,9 @@
     "copy": "babel-node tools/run copy",
     "build": "babel-node tools/run build",
     "deploy": "babel-node tools/run deploy",
-    "dev": "babel-node tools/run dev",
-    "install-source": "babel-node tools/run install",
+    "dev": "babel-node tools/run src.dev",
+    "install:src": "babel-node tools/run src.install",
+    "clean:src": "babel-node tools/run src.clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

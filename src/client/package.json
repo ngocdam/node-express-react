@@ -27,7 +27,8 @@
     "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "flow": "flow"
+    "flow": "flow",
+    "dev": "yarn start"
   },
   "eslintConfig": {
     "extends": "react-app"

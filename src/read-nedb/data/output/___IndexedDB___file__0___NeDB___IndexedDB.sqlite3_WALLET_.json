@@ -1,0 +1,20 @@
+{
+  "W2": {
+    "coins": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "ethereum"
+    ],
+    "passphrase": "you truly cannon high domain ridge eagle gentle stumble broom power worth"
+  },
+  "W1": {
+    "coins": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "ethereum"
+    ],
+    "passphrase": ""
+  }
+}
